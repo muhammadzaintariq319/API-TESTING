@@ -1,1 +1,39 @@
+# REST Assured API Automation Framework 🚀
 
+A comprehensive, robust, and fully automated API testing framework built to validate the [Automation Exercise APIs](https://automationexercise.com/api). This project demonstrates industry-standard QA practices, including End-to-End (E2E) workflows, negative testing, and security checks.
+
+## 🛠️ Tech Stack & Tools
+* **Programming Language:** Java (JDK 8+)
+* **API Testing Tool:** REST Assured
+* **Testing Framework:** TestNG
+* **Build Management:** Maven
+* **Reporting:** ExtentReports (Interactive HTML Dashboard)
+* **IDE:** Eclipse / VS Code
+
+## ✨ Key Features
+This framework is designed to handle 22 distinct test cases distributed across various modules:
+
+1. **Products & Brands Validation:** GET, POST, and PUT requests validating happy paths and 405 Method Not Allowed scenarios.
+2. **Search Functionality:** Parameterized search tests including edge cases (missing parameters resulting in 400 Bad Request).
+3. **Authentication:** Secure login validation handling valid credentials, missing emails, and invalid body formats.
+4. **End-to-End (E2E) Account Lifecycle:** A chained regression flow that dynamically:
+   * Creates an account (201 Created)
+   * Verifies login (200 OK)
+   * Fetches user details to confirm data persistence
+   * Updates the account
+   * Deletes the account (Cleanup)
+5. **Security Testing (Out-of-the-Box QA):**
+   * Response Header Inspection (X-Content-Type-Options, X-Frame-Options)
+   * Sensitive Data Exposure Checks
+   * Input Validation & Script Injection prevention
+
+## 📂 Project Structure
+```text
+src/test/java/com/automationexercise/tests/
+ ├── account/             # Account creation & lifecycle tests
+ ├── authentication/      # Login and auth validation
+ ├── edgecases/           # Missing fields and bad requests
+ ├── products/            # Products, brands, and search endpoints
+ ├── regression/          # Chained E2E flow tests
+ ├── security/            # Security and header vulnerability checks
+ └── utils/               # Base tests and ExtentReports listener
