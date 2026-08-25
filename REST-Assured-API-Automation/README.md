@@ -29,11 +29,24 @@ This framework is designed to handle 22 distinct test cases distributed across v
 
 ## 📂 Project Structure
 ```text
-src/test/java/com/automationexercise/tests/
- ├── account/             # Account creation & lifecycle tests
- ├── authentication/      # Login and auth validation
- ├── edgecases/           # Missing fields and bad requests
- ├── products/            # Products, brands, and search endpoints
- ├── regression/          # Chained E2E flow tests
- ├── security/            # Security and header vulnerability checks
- └── utils/               # Base tests and ExtentReports listener
+ApiAutomationTesting
+├── src/main/java
+│   └── com.automationexercise.utils
+│       ├── BaseTest.java             # Core setup and teardown configurations
+│       └── ConfigReader.java         # Utility to read environment variables
+├── src/test/java
+│   ├── com.automationexercise.tests.account
+│   │   └── AccountManagementTests.java
+│   ├── com.automationexercise.tests.authentication
+│   │   └── AuthenticationTests.java
+│   ├── com.automationexercise.tests.edgecases
+│   │   └── EdgeCasesTest.java
+│   ├── com.automationexercise.tests.products
+│   │   └── ProductsTests.java
+│   ├── com.automationexercise.tests.regression
+│   │   └── EndToEndAccountFlowTest.java
+│   ├── com.automationexercise.tests.security
+│   │   └── SecurityTest.java
+│   └── com.automationexercise.utils
+│       └── ExtentReportListener.java # Custom listener for ExtentReports generation
+└── pom.xml                           # Maven dependencies and build configuration
