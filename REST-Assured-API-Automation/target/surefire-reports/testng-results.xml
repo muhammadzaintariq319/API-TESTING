@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Exercise API Suite" duration-ms="21491" started-at="2026-08-25T16:48:43 PKT" finished-at="2026-08-25T16:49:05 PKT">
+    <groups>
+    </groups>
+    <test name="Products API Test" duration-ms="7228" started-at="2026-08-25T16:48:43 PKT" finished-at="2026-08-25T16:48:50 PKT">
+      <class name="com.automationexercise.tests.products.ProductsTests">
+        <test-method status="PASS" signature="verifyGetAllProductsList()[pri:1, instance:com.automationexercise.tests.products.ProductsTests@63475ace]" name="verifyGetAllProductsList" duration-ms="3967" started-at="2026-08-25T16:48:43 PKT" finished-at="2026-08-25T16:48:47 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAllProductsList -->
+        <test-method status="PASS" signature="testPostAllProductsListUnsupported()[pri:2, instance:com.automationexercise.tests.products.ProductsTests@63475ace]" name="testPostAllProductsListUnsupported" duration-ms="603" started-at="2026-08-25T16:48:47 PKT" finished-at="2026-08-25T16:48:48 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostAllProductsListUnsupported -->
+        <test-method status="PASS" signature="testGetAllBrandsList()[pri:3, instance:com.automationexercise.tests.products.ProductsTests@63475ace]" name="testGetAllBrandsList" duration-ms="599" started-at="2026-08-25T16:48:48 PKT" finished-at="2026-08-25T16:48:49 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllBrandsList -->
+        <test-method status="PASS" signature="testPutAllBrandsListUnsupported()[pri:4, instance:com.automationexercise.tests.products.ProductsTests@63475ace]" name="testPutAllBrandsListUnsupported" duration-ms="530" started-at="2026-08-25T16:48:49 PKT" finished-at="2026-08-25T16:48:49 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutAllBrandsListUnsupported -->
+        <test-method status="PASS" signature="testSearchProductValid()[pri:5, instance:com.automationexercise.tests.products.ProductsTests@63475ace]" name="testSearchProductValid" duration-ms="816" started-at="2026-08-25T16:48:49 PKT" finished-at="2026-08-25T16:48:50 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProductValid -->
+        <test-method status="PASS" signature="testSearchProductMissingParam()[pri:6, instance:com.automationexercise.tests.products.ProductsTests@63475ace]" name="testSearchProductMissingParam" duration-ms="580" started-at="2026-08-25T16:48:50 PKT" finished-at="2026-08-25T16:48:50 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProductMissingParam -->
+      </class> <!-- com.automationexercise.tests.products.ProductsTests -->
+    </test> <!-- Products API Test -->
+    <test name="Regression Flow Test" duration-ms="3629" started-at="2026-08-25T16:48:51 PKT" finished-at="2026-08-25T16:48:54 PKT">
+      <class name="com.automationexercise.tests.regression.EndToEndAccountFlowTest">
+        <test-method status="PASS" signature="step01_createAccountTest()[pri:1, instance:com.automationexercise.tests.regression.EndToEndAccountFlowTest@15ca7889]" name="step01_createAccountTest" duration-ms="908" started-at="2026-08-25T16:48:51 PKT" finished-at="2026-08-25T16:48:52 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step01_createAccountTest -->
+        <test-method status="PASS" signature="step02_verifyLoginTest()[pri:2, instance:com.automationexercise.tests.regression.EndToEndAccountFlowTest@15ca7889]" name="step02_verifyLoginTest" duration-ms="800" started-at="2026-08-25T16:48:52 PKT" depends-on-methods="com.automationexercise.tests.regression.EndToEndAccountFlowTest.step01_createAccountTest" finished-at="2026-08-25T16:48:53 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step02_verifyLoginTest -->
+        <test-method status="PASS" signature="step03_getUserDetailTest()[pri:3, instance:com.automationexercise.tests.regression.EndToEndAccountFlowTest@15ca7889]" name="step03_getUserDetailTest" duration-ms="717" started-at="2026-08-25T16:48:53 PKT" depends-on-methods="com.automationexercise.tests.regression.EndToEndAccountFlowTest.step02_verifyLoginTest" finished-at="2026-08-25T16:48:53 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step03_getUserDetailTest -->
+        <test-method status="PASS" signature="step04_updateAccountTest()[pri:4, instance:com.automationexercise.tests.regression.EndToEndAccountFlowTest@15ca7889]" name="step04_updateAccountTest" duration-ms="593" started-at="2026-08-25T16:48:53 PKT" depends-on-methods="com.automationexercise.tests.regression.EndToEndAccountFlowTest.step03_getUserDetailTest" finished-at="2026-08-25T16:48:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step04_updateAccountTest -->
+        <test-method status="PASS" signature="step05_deleteAccountTest()[pri:5, instance:com.automationexercise.tests.regression.EndToEndAccountFlowTest@15ca7889]" name="step05_deleteAccountTest" duration-ms="601" started-at="2026-08-25T16:48:54 PKT" depends-on-methods="com.automationexercise.tests.regression.EndToEndAccountFlowTest.step04_updateAccountTest" finished-at="2026-08-25T16:48:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step05_deleteAccountTest -->
+      </class> <!-- com.automationexercise.tests.regression.EndToEndAccountFlowTest -->
+    </test> <!-- Regression Flow Test -->
+    <test name="Edge Cases Test" duration-ms="2910" started-at="2026-08-25T16:48:55 PKT" finished-at="2026-08-25T16:48:57 PKT">
+      <class name="com.automationexercise.tests.edgecases.EdgeCasesTest">
+        <test-method status="PASS" signature="testCreateAccountMissingRequiredFields()[pri:1, instance:com.automationexercise.tests.edgecases.EdgeCasesTest@a1cdc6d]" name="testCreateAccountMissingRequiredFields" duration-ms="524" started-at="2026-08-25T16:48:55 PKT" finished-at="2026-08-25T16:48:55 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAccountMissingRequiredFields -->
+        <test-method status="PASS" signature="testVerifyLoginInvalidJsonBody()[pri:2, instance:com.automationexercise.tests.edgecases.EdgeCasesTest@a1cdc6d]" name="testVerifyLoginInvalidJsonBody" duration-ms="561" started-at="2026-08-25T16:48:55 PKT" finished-at="2026-08-25T16:48:56 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyLoginInvalidJsonBody -->
+        <test-method status="PASS" signature="testGetUserDetailsInvalidEmail()[pri:3, instance:com.automationexercise.tests.edgecases.EdgeCasesTest@a1cdc6d]" name="testGetUserDetailsInvalidEmail" duration-ms="1821" started-at="2026-08-25T16:48:56 PKT" finished-at="2026-08-25T16:48:57 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserDetailsInvalidEmail -->
+      </class> <!-- com.automationexercise.tests.edgecases.EdgeCasesTest -->
+    </test> <!-- Edge Cases Test -->
+    <test name="Security API Test" duration-ms="2640" started-at="2026-08-25T16:48:57 PKT" finished-at="2026-08-25T16:49:00 PKT">
+      <class name="com.automationexercise.tests.security.SecurityTest">
+        <test-method status="PASS" signature="testResponseHeaderInspection()[pri:1, instance:com.automationexercise.tests.security.SecurityTest@21b2e768]" name="testResponseHeaderInspection" duration-ms="1163" started-at="2026-08-25T16:48:57 PKT" finished-at="2026-08-25T16:48:59 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseHeaderInspection -->
+        <test-method status="PASS" signature="testSensitiveDataExposure()[pri:2, instance:com.automationexercise.tests.security.SecurityTest@21b2e768]" name="testSensitiveDataExposure" duration-ms="869" started-at="2026-08-25T16:48:59 PKT" finished-at="2026-08-25T16:48:59 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSensitiveDataExposure -->
+        <test-method status="PASS" signature="testInputValidationScriptInjection()[pri:3, instance:com.automationexercise.tests.security.SecurityTest@21b2e768]" name="testInputValidationScriptInjection" duration-ms="605" started-at="2026-08-25T16:48:59 PKT" finished-at="2026-08-25T16:49:00 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputValidationScriptInjection -->
+      </class> <!-- com.automationexercise.tests.security.SecurityTest -->
+    </test> <!-- Security API Test -->
+    <test name="Authentication API Test" duration-ms="4582" started-at="2026-08-25T16:49:00 PKT" finished-at="2026-08-25T16:49:05 PKT">
+      <class name="com.automationexercise.tests.authentication.AuthenticationTests">
+        <test-method status="PASS" signature="setupEnvironment()[pri:0, instance:com.automationexercise.tests.authentication.AuthenticationTests@68567e20]" name="setupEnvironment" is-config="true" duration-ms="383" started-at="2026-08-25T16:48:43 PKT" finished-at="2026-08-25T16:48:43 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEnvironment -->
+        <test-method status="PASS" signature="testVerifyLoginValidCredentials()[pri:1, instance:com.automationexercise.tests.authentication.AuthenticationTests@68567e20]" name="testVerifyLoginValidCredentials" duration-ms="1898" started-at="2026-08-25T16:49:00 PKT" finished-at="2026-08-25T16:49:02 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyLoginValidCredentials -->
+        <test-method status="PASS" signature="testVerifyLoginMissingEmail()[pri:2, instance:com.automationexercise.tests.authentication.AuthenticationTests@68567e20]" name="testVerifyLoginMissingEmail" duration-ms="705" started-at="2026-08-25T16:49:02 PKT" finished-at="2026-08-25T16:49:03 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyLoginMissingEmail -->
+        <test-method status="PASS" signature="testVerifyLoginInvalidCredentials()[pri:3, instance:com.automationexercise.tests.authentication.AuthenticationTests@68567e20]" name="testVerifyLoginInvalidCredentials" duration-ms="677" started-at="2026-08-25T16:49:03 PKT" finished-at="2026-08-25T16:49:03 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyLoginInvalidCredentials -->
+        <test-method status="PASS" signature="testVerifyLoginUnsupportedMethod()[pri:4, instance:com.automationexercise.tests.authentication.AuthenticationTests@68567e20]" name="testVerifyLoginUnsupportedMethod" duration-ms="791" started-at="2026-08-25T16:49:03 PKT" finished-at="2026-08-25T16:49:04 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyLoginUnsupportedMethod -->
+        <test-method status="PASS" signature="testVerifyLoginEmptyBody()[pri:5, instance:com.automationexercise.tests.authentication.AuthenticationTests@68567e20]" name="testVerifyLoginEmptyBody" duration-ms="506" started-at="2026-08-25T16:49:04 PKT" finished-at="2026-08-25T16:49:05 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyLoginEmptyBody -->
+      </class> <!-- com.automationexercise.tests.authentication.AuthenticationTests -->
+    </test> <!-- Authentication API Test -->
+  </suite> <!-- Automation Exercise API Suite -->
+</testng-results>

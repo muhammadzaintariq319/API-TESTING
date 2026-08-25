@@ -1,0 +1,67 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Exercise API Suite">
+
+    <!-- Listener for generating the professional Extent Report -->
+    <listeners>
+
+        <listener class-name="com.automationexercise.utils.ExtentReportListener"/>
+
+    </listeners>
+
+    <!-- Test 1: Run only the Products API tests -->
+    <test name="Products API Test">
+
+        <classes>
+
+            <class name="com.automationexercise.tests.products.ProductsTests"/>
+
+        </classes>
+
+    </test>
+
+    <!-- Test 2: Run the Regression Chained Flow -->
+    <test name="Regression Flow Test">
+
+        <classes>
+
+            <class name="com.automationexercise.tests.regression.EndToEndAccountFlowTest"/>
+
+        </classes>
+
+    </test>
+
+    <!-- Test 3: Run Negative and Edge Case tests -->
+    <test name="Edge Cases Test">
+
+        <classes>
+
+            <class name="com.automationexercise.tests.edgecases.EdgeCasesTest"/>
+
+        </classes>
+
+    </test>
+
+    <!-- Test 4: Run Security API tests -->
+    <test name="Security API Test">
+
+        <classes>
+
+            <class name="com.automationexercise.tests.security.SecurityTest"/>
+
+        </classes>
+
+    </test>
+
+    <!-- Test 5: Run Authentication API tests -->
+    <test name="Authentication API Test">
+
+        <classes>
+
+            <class name="com.automationexercise.tests.authentication.AuthenticationTests"/>
+
+        </classes>
+
+    </test>
+
+</suite>

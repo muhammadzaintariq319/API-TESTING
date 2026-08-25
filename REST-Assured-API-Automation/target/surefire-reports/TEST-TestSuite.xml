@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="22.811" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\zain\eclipse-workspace\ApiAutomationTesting\target\test-classes;C:\Users\zain\eclipse-workspace\ApiAutomationTesting\target\classes;C:\Users\zain\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\zain\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\zain\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\zain\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\zain\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\zain\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\zain\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\zain\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\zain\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\zain\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\zain\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\zain\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\zain\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\zain\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\zain\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\zain\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\zain\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\zain\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\zain\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\zain\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\zain\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\zain\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\zain\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\zain\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\zain\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\zain\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\zain\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_491\bin"/>
+    <property name="sun.java.command" value="C:\Users\zain\AppData\Local\Temp\surefire3876784614820382724\surefirebooter-20260825164842038_3.jar C:\Users\zain\AppData\Local\Temp\surefire3876784614820382724 2026-08-25T16-48-41_371-jvmRun1 surefire-20260825164842038_1tmp surefire_0-20260825164842038_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\zain\eclipse-workspace\ApiAutomationTesting\target\test-classes;C:\Users\zain\eclipse-workspace\ApiAutomationTesting\target\classes;C:\Users\zain\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\zain\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\zain\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\zain\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\zain\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\zain\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\zain\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\zain\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\zain\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\zain\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\zain\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\zain\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\zain\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\zain\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\zain\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\zain\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\zain\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\zain\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\zain\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\zain\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\zain\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\zain\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\zain\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\zain\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\zain\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\zain\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\zain\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\zain"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_491"/>
+    <property name="basedir" value="C:\Users\zain\eclipse-workspace\ApiAutomationTesting"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\zain\AppData\Local\Temp\surefire3876784614820382724\surefirebooter-20260825164842038_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_491\lib\resources.jar;C:\Program Files\Java\jre1.8.0_491\lib\rt.jar;C:\Program Files\Java\jre1.8.0_491\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_491\lib\jce.jar;C:\Program Files\Java\jre1.8.0_491\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_491\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_491\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_491-b10"/>
+    <property name="user.name" value="zain"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_491\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\zain\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\zain\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_491"/>
+    <property name="user.dir" value="C:\Users\zain\eclipse-workspace\ApiAutomationTesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_491\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/zain/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.12.v20260801-1229/jre/bin/server;C:/Users/zain/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.12.v20260801-1229/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\flutter\bin;C:\Program Files\Git\cmd;C:\Users\zain\AppData\Local\Pub\Cache\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Java\jre1.8.0_491\bin;C:\Program Files\apache-maven\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Tailscale\;C:\flutter\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Users\zain\AppData\Local\Pub\Cache\bin;C:\flutter\bin\;c:\Users\zain\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\zain\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\zain\AppData\Local\Programs\Microsoft VS Code;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Tailscale\;C:\flutter\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Users\zain\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\zain\AppData\Local\Programs\Python\Python312\;C:\Users\zain\AppData\Local\Programs\Python\Launcher\;C:\Users\zain\AppData\Local\Microsoft\WindowsApps;C:\Users\zain\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zain\AppData\Roaming\npm;C:\Users\zain\AppData\Local\Programs\Antigravity\bin;C:\Users\zain\AppData\Local\Programs\Ollama;C:\flutter\bin;C:\Users\zain\AppData\Local\Python\bin;C:\Users\zain\AppData\Local\Pub\Cache\bin;C:\Users\zain\AppData\Local\Pub\Cache\bin;C:\Users\zain\AppData\Local\Programs\Antigravity IDE\bin;C:\xampp\php;C:\Program Files\apache-maven\bin;;C:\Users\zain\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.491-b10"/>
+    <property name="java.specification.maintenance.version" value="6"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_491\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="verifyGetAllProductsList" classname="com.automationexercise.tests.products.ProductsTests" time="3.971">
+    <system-out><![CDATA[Base URI has been set to: https://automationexercise.com/api
+Executing: GET All Products List
+]]></system-out>
+  </testcase>
+  <testcase name="testPostAllProductsListUnsupported" classname="com.automationexercise.tests.products.ProductsTests" time="0.601">
+    <system-out><![CDATA[Executing: POST All Products List (Negative)
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAllBrandsList" classname="com.automationexercise.tests.products.ProductsTests" time="0.599">
+    <system-out><![CDATA[Executing: GET All Brands List
+]]></system-out>
+  </testcase>
+  <testcase name="testPutAllBrandsListUnsupported" classname="com.automationexercise.tests.products.ProductsTests" time="0.531">
+    <system-out><![CDATA[Executing: PUT All Brands List (Negative)
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchProductValid" classname="com.automationexercise.tests.products.ProductsTests" time="0.816">
+    <system-out><![CDATA[Executing: POST Search Product - Valid
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchProductMissingParam" classname="com.automationexercise.tests.products.ProductsTests" time="0.576">
+    <system-out><![CDATA[Executing: POST Search Product - Missing Param
+]]></system-out>
+  </testcase>
+  <testcase name="step01_createAccountTest" classname="com.automationexercise.tests.regression.EndToEndAccountFlowTest" time="0.907">
+    <system-out><![CDATA[Executing: Step 01 - Create Account (Chain Start)
+]]></system-out>
+  </testcase>
+  <testcase name="step02_verifyLoginTest" classname="com.automationexercise.tests.regression.EndToEndAccountFlowTest" time="0.801">
+    <system-out><![CDATA[Executing: Step 02 - Verify Login With New Account
+]]></system-out>
+  </testcase>
+  <testcase name="step03_getUserDetailTest" classname="com.automationexercise.tests.regression.EndToEndAccountFlowTest" time="0.719">
+    <system-out><![CDATA[Executing: Step 03 - Get User Detail (Confirm Data Persistence)
+]]></system-out>
+  </testcase>
+  <testcase name="step04_updateAccountTest" classname="com.automationexercise.tests.regression.EndToEndAccountFlowTest" time="0.595">
+    <system-out><![CDATA[Executing: Step 04 - Update Account
+]]></system-out>
+  </testcase>
+  <testcase name="step05_deleteAccountTest" classname="com.automationexercise.tests.regression.EndToEndAccountFlowTest" time="0.601">
+    <system-out><![CDATA[Executing: Step 05 - Delete Account (Chain Cleanup)
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateAccountMissingRequiredFields" classname="com.automationexercise.tests.edgecases.EdgeCasesTest" time="0.523">
+    <system-out><![CDATA[Running Edge Case: Create Account Missing Fields...
+HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="testVerifyLoginInvalidJsonBody" classname="com.automationexercise.tests.edgecases.EdgeCasesTest" time="0.563">
+    <system-out><![CDATA[Running Edge Case: Invalid JSON Body...
+HTTP/1.1 400 Bad Request
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserDetailsInvalidEmail" classname="com.automationexercise.tests.edgecases.EdgeCasesTest" time="1.821">
+    <system-out><![CDATA[Running Edge Case: Non-existent Email...
+HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="testResponseHeaderInspection" classname="com.automationexercise.tests.security.SecurityTest" time="1.164">
+    <system-out><![CDATA[Executing Security Test: Response Header Inspection...
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Strict-Transport-Security: null
+]]></system-out>
+  </testcase>
+  <testcase name="testSensitiveDataExposure" classname="com.automationexercise.tests.security.SecurityTest" time="0.87">
+    <system-out><![CDATA[Executing Security Test: Sensitive Data Exposure Check...
+]]></system-out>
+  </testcase>
+  <testcase name="testInputValidationScriptInjection" classname="com.automationexercise.tests.security.SecurityTest" time="0.605">
+    <system-out><![CDATA[Executing Security Test: Script Injection Input Validation...
+]]></system-out>
+  </testcase>
+  <testcase name="testVerifyLoginValidCredentials" classname="com.automationexercise.tests.authentication.AuthenticationTests" time="1.897">
+    <system-out><![CDATA[Executing: POST Verify Login - Valid Credentials
+]]></system-out>
+  </testcase>
+  <testcase name="testVerifyLoginMissingEmail" classname="com.automationexercise.tests.authentication.AuthenticationTests" time="0.705">
+    <system-out><![CDATA[Executing: POST Verify Login - Missing Email
+]]></system-out>
+  </testcase>
+  <testcase name="testVerifyLoginInvalidCredentials" classname="com.automationexercise.tests.authentication.AuthenticationTests" time="0.677">
+    <system-out><![CDATA[Executing: POST Verify Login - Invalid Credentials
+]]></system-out>
+  </testcase>
+  <testcase name="testVerifyLoginUnsupportedMethod" classname="com.automationexercise.tests.authentication.AuthenticationTests" time="0.792">
+    <system-out><![CDATA[Executing: DELETE Verify Login - Unsupported Method
+]]></system-out>
+  </testcase>
+  <testcase name="testVerifyLoginEmptyBody" classname="com.automationexercise.tests.authentication.AuthenticationTests" time="0.507">
+    <system-out><![CDATA[Executing: POST Verify Login - Empty Body
+]]></system-out>
+  </testcase>
+</testsuite>
