@@ -37,7 +37,6 @@ automation-exercise-api-testing/
 │
 ├── AUTOMATION EXERCISE API TESTING.postman_collection.json   ← import into Postman
 ├── AutomationExercise.postman_environment.json                ← import into Postman
-├── test-data-login.csv                                         ← data-driven test inputs
 ├── report.html                                                 ← Newman HTML test report
 └── README.md
 ```
